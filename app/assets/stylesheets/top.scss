@@ -26,9 +26,12 @@
           margin: 0;
         }
         &_action {
-          .fa-pen{
+          .fa-pen, .fa-trash{
             font-size: 18px;
             color: #8c8c8c;
+          }
+          .fa-trash{
+            margin-right: 10px;
           }
         }
       }
