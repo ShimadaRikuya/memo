@@ -1,8 +1,8 @@
-.cardnewPage{
-  .cardnewForm{
+.cardeditPage{
+  .cardeditForm{
     max-width: 500px;
     margin: 70px auto;
-    &_title, &_memo {
+    &_title {
       margin-bottom: 30px;
     }
   }

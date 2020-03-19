@@ -1,0 +1,18 @@
+<div class="cardeditPage">
+  <div class="container">
+    <%= form_with model: @card, url: { action: :update }, class: "cardeditForm", local: true do |f| %>
+      <% if @card.errors.any? %>
+        <p class="text-danger">タイトルは1~225文字以内で入力してください</p>
+      <% end %>
+      <div class="cardeditForm_title">
+        <%= f.label :title %>
+        <%= f.text_field :title, autofocus: true, class: "form-control listName", placeholder: "カード名" %>
+      </div>
+      <div class="cardeditForm_memo">
+        <%= f.label :memo %>
+        <%= f.text_area :memo, autofocus: true, class: "form-control listName", placeholder: "詳細" %>
+      <div class="text-center"><%= f.submit "更新する", class: "submitBtn" %></div>
+      </div>
+    <% end %>
+  </div>
+</div>
