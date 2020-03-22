@@ -12,7 +12,7 @@
 
         <div class="cardWrapper">
           <% list.cards.each do |card| %>
-            <%= link_to list_card_path(list, card), class: "cardDetail_link" do %>
+            <%= link_to list_card_path(list, card), class: "cardDetail_link", id: "drag-box" do %>
               <div class="card">
                 <h3 class="card_title"><%= card.title %></h3>
                 <% if card.memo.size > 0 %>
