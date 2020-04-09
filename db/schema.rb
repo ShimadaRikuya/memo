@@ -15,6 +15,7 @@ ActiveRecord::Schema.define(version: 2020_03_10_085622) do
   create_table "cards", force: :cascade do |t|
     t.string "title", limit: 255, null: false
     t.text "memo", limit: 1000
+    t.integer "row_order", null: false
     t.integer "list_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
@@ -23,6 +24,7 @@ ActiveRecord::Schema.define(version: 2020_03_10_085622) do
 
   create_table "lists", force: :cascade do |t|
     t.string "title", null: false
+    t.integer "row_order", null: false
     t.integer "user_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false

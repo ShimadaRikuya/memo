@@ -31,9 +31,16 @@ before_action :set_list, only: %i(edit update destroy)
     redirect_to :root
   end
 
+  def sort
+    # binding.pry
+    @list = List.find(params[:list_id])
+    @list.update(list_params)
+    render body: nil 
+  end
+
   private
   def list_params
-    params.require(:list).permit(:title).merge(user: current_user)
+    params.require(:list).permit(:title, :row_order_position).merge(user: current_user)
   end
 
   def set_list

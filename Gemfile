@@ -65,6 +65,12 @@ gem 'bootstrap', '~> 4.3.1'
 
 gem 'jquery-rails'
 
+gem "jquery-ui-rails"
+
+gem 'ranked-model'
+
 gem 'font-awesome-sass', '~> 5.9.0'
 
 gem 'devise'
+
+gem 'pry-rails'
