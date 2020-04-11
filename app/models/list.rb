@@ -4,7 +4,7 @@ class List < ApplicationRecord
   has_many :cards, dependent: :destroy
 
   include RankedModel
-  ranks :row_order
+  ranks :row_order, with_same: :user_id
 
   validates :title, length: { in: 1..255 }
 end

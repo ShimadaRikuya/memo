@@ -7,6 +7,9 @@
   padding-top: 30px;
   background: #bababa;
   overflow-x: scroll;
+  ul {
+    list-style: none;
+  }
   .listWrapper {
     display: flex;
     height: 100%;
@@ -15,7 +18,7 @@
       position: relative;
       background: #e2e4e6;
       padding: 10px;
-      margin-left: 20px;
+      margin-left: 10px;
       min-width: 250px;
       &:last-child {
         margin-right: 20px;

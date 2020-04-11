@@ -9,7 +9,7 @@ before_action :set_list, only: %i(edit update destroy)
   def create
     @list = List.new(list_params)
     if @list.save
-    redirect_to :root
+      redirect_to :root
     else
       render action: :new
     end
