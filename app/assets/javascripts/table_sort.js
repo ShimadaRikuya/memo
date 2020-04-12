@@ -1,5 +1,8 @@
 $(function(){
   $('#cards_list').sortable({
+    cursor: 'move',
+    opacity: 0.7,
+    placeholder: 'ui-state-highlight',
     update: function(e, ui){
       let item = ui.item;
       let item_data = item.data();

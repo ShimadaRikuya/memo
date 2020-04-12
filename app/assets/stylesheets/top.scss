@@ -2,6 +2,12 @@
   display: contents;
 }
 
+.ui-state-highlight {
+  min-width: 250px;
+  padding: 10px;
+  border: dotted 2px #0000ff;
+}
+
 .topPage {
   min-height: 93vh;
   padding-top: 30px;
