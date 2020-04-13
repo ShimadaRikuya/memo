@@ -1,6 +1,10 @@
 # Memoアプリ
 
 #### [https://murmuring-anchorage-79409.herokuapp.com/](https://murmuring-anchorage-79409.herokuapp.com/)
+メールアドレス <br>
+tesuto@gmail.com<br>
+パスワード<br>
+123456
 
 ## 概要
 「メモやToDoリスト」を管理できるアプリケーションです。
