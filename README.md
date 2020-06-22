@@ -33,6 +33,7 @@ tesuto@gmail.com<br>
 •　jQuery<br>
 •　ajsx(非同期通信)<br>
 •　jQuery<br>
+•　JavaScript<br>
 •　sortable<br>
 •　SQLite3(開発環境)<br>
 •　PostgreSQL(本番環境)<br>
